@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        .background_linear{
+            height: 400px;
+            font-size: 100px;
+            color: blue;
+            /* background: linear-gradient( red, green, yellow,black);
+            background: linear-gradient(to right, red, green, yellow,black); */
+            /* background: linear-gradient(to left, red, green, yellow,black); */
+            background: linear-gradient(orange, white, green);
+            
+            
+        }
+        .b_radial{
+            height: 600px;
+            /* background: radial-gradient(  black, red, green,white); */
+            /* background: radial-gradient( circle at center, black, red, green,white);*/
+            background: radial-gradient( circle at left top, black, red, green,white);
+        }
+        .b_conic{
+            height: 500px;
+            /* background: conic-gradient(red, green, white,blue); */
+            background: conic-gradient( from 90deg, red, green, white,blue);
+        }
+        div{
+            margin-bottom: 50px;
+        }
+                    
+     </style>
+</head>
+<body>
+     <!-- Background  Propeties in 3. Types Linear,Radial Conic -->
+
+    <div class="background_linear"> Linear Example</div>
+    <div class="b_radial">Radial Example</div>
+    <div class="b_conic">Conic Example</div>
+    
+    
+</body>
+</html>
